@@ -119,8 +119,7 @@ function sendMessage(openaiApiKey) {
 
     // Call OpenAI API (replace 'YOUR_OPENAI_API_KEY' with your actual API key)
    
-   // var openaiApiKey = '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';
-    var openaiApiUrl = 'https://api.openai.com/v1/chat/completions';
+     var openaiApiUrl = 'https://api.openai.com/v1/chat/completions';
 
     // Construct the prompt
     var prompt = ` You are a UPSC aspirant Please check this  "${topic}" and if this is related to any subject of UPSC exam then generate key points and questions for UPSC  If questions were asked in previous exams please give paper and year else give it as expected Please generate in the below format This content is related to the subject of <Subject>, which is a part of the <Paper> for UPSC exams. Here are some key points and potential questions:
