@@ -1,0 +1,15 @@
+.gpt-highlight-border {
+    border-left: 5px solid;
+}
+.gpt-ready{
+    border-left-color: rgb(69 90 3);
+}
+
+.gpt-animate {
+    border-left-color: orange;
+    animation: load 1s infinite;
+}
+
+.gpt-error {
+    border-left-color: red;
+}
